@@ -1,6 +1,6 @@
 cask "aiusage" do
-  version "0.1.0"
-  sha256 "4369bf6745869f936ef541984dacec85f16d6eff8d86dc0657641b1d28e533ff"
+  version "0.1.1"
+  sha256 "beb561dc98ddc863e2637c53df892cf294885f4f2200d5dea4871955773b52c0"
 
   url "https://github.com/j3s30p/AI_Usage/releases/download/v#{version}/AiUsage-v#{version}-macos-universal.zip"
   name "AiUsage"
@@ -10,8 +10,6 @@ cask "aiusage" do
   depends_on macos: :sonoma
 
   app "AiUsage.app"
-  binary "claude-statusline-aiusage.sh",
-         target: "aiusage-claude-statusline"
 
   uninstall quit: "com.j3s30p.AiUsage"
 
