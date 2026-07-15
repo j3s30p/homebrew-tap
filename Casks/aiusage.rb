@@ -1,6 +1,6 @@
 cask "aiusage" do
-  version "1.2.0"
-  sha256 "d32c53958f0b7928ea3282c206136b9884fb243df195c1a7834736347d7526e1"
+  version "1.2.1"
+  sha256 "535a2dde036bf6c7cdcc8b1c29f020af01b09495b0147ebacad175c13bb22956"
 
   url "https://github.com/j3s30p/AI_Usage/releases/download/v#{version}/AiUsage-v#{version}-macos-universal.zip"
   name "AiUsage"
