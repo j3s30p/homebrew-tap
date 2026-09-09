@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "aiusage" do
-  version "1.3.0"
-  sha256 "4ad4379fc5aca40a7d9ed02f4ace6d04f12d3fc4fd257458ee801cbcb326fd46"
+  version "1.3.1"
+  sha256 "019061f4f15fcba7326fff1f8bc3cc18bdd7dfb1aef6beaaf65ba90a3af2b03b"
 
   url "https://github.com/j3s30p/AI_Usage/releases/download/v#{version}/AiUsage-v#{version}-macos-universal.zip"
   name "AiUsage"
